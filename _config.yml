@@ -1,0 +1,22 @@
+baseurl: ""
+url: "http://www.mattiaslundell.com"
+title: "Mattias Lundell"
+
+exclude:
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
