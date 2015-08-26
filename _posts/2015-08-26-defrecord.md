@@ -8,13 +8,13 @@ categories:
 
 Clojure defrecord does not expose the constructor outside the namespace
 
-```clojure
+```
 (defrecord Point [x y])
 (def origin (Point. 0 0)) ; only avalable in namespace
 ```
 
 Instead use the automatically generated constructor
 
-```clojure
+```
 (def origin (->Point 0 0)) ; available in other namespaces
 ```
