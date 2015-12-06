@@ -16,12 +16,12 @@ func timeit(start time.Time, text string) {
 
 Using the `defer` keyword we can make `timeit` execute directly after the function that we want to measure. Passing `time.Now()` as argument gives us a timer that measures execution time for the function body.
 
-```go
+{% highlight go %}
 func timedFunction() {
     defer timeit(time.Now())
     time.Sleep(500 * time.Millisecond)
 }
-```
+{% endhighlight %}
 
 Calling `timedFunction()` should print
 
