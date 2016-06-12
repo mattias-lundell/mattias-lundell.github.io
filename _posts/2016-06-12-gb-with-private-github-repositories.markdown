@@ -1,6 +1,7 @@
 ---
-title: gb with private github repositories
+title: "[Note] gb with private github repositories"
 date: 2016-06-12T21:44:18+02:00
+categories: golang
 ---
 
 Workaround for getting gb to play nice with vendored private repositories. Add following lines to `.gitconfig` file:
