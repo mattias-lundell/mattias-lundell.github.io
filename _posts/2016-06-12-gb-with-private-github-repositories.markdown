@@ -1,5 +1,5 @@
 ---
-title: "[Note] gb with private github repositories"
+title: "[NOTE] gb with private github repositories"
 date: 2016-06-12T21:44:18+02:00
 categories: golang
 ---
